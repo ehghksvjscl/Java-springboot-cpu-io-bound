@@ -1,0 +1,13 @@
+# artillery.cmd run --output report.json cpu-test.yaml
+# artillery.cmd report .\report.json
+  config:
+    target: "target IP"
+    phases:
+      - duration: 360
+        arrivalRate: 39
+        name: Warm up
+  scenarios:
+    - name: "just get hash"
+      flow:
+        - get:
+            url: "/hash/123"

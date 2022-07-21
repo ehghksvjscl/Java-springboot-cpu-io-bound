@@ -3,11 +3,11 @@
   config:
     target: "target IP"
     phases:
-      - duration: 360
-        arrivalRate: 39
+      - duration: 120
+        arrivalRate: 5
         name: Warm up
   scenarios:
     - name: "just get hash"
       flow:
         - get:
-            url: "/hash/123"
+            url: "/hello"

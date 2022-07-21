@@ -1,7 +1,7 @@
 # artillery.cmd run --output report.json cpu-test.yaml
 # artillery.cmd report .\report.json
   config:
-    target: "target IP"
+    target: "http://20.214.158.36"
     phases:
       - duration: 120
         arrivalRate: 5

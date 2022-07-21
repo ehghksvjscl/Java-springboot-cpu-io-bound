@@ -4,7 +4,7 @@ Java-springboot-cpu-io-bound
 ## Todo List
 
 ### 2022-07-19
-- [ ] Git Hook -> Jenkins 설정
+- [x] Git Hook -> Jenkins 설정
 - [ ] Git Flow 연습
 - [ ] API 추가 (검색, 조회)
 - [ ] 검색 기능은 java cache 사용
